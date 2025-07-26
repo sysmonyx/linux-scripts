@@ -1,0 +1,69 @@
+# Site details
+site_name: Linux Scripts
+repo_name: sysmonyx/linux-scripts
+repo_url: https://github.com/sysmonyx/linux-scripts
+
+# Static details
+copyright: Copyright &copy; 2025 Soham Ray @sysmonyx
+
+# Material for MKDocs theme configs
+theme:
+  icon:
+    logo: fontawesome/brands/linux
+    repo: fontawesome/brands/github
+  name: material
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+        
+  font:
+    text: IBM Plex Sans
+    code: IBM Plex Mono
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.path
+    - navigation.top
+    - navigation.prune
+    - navigation.tracking
+
+# Navigation Configs
+nav:
+  - Home:
+    - index.md
+  - How to Use:
+    - how-to-use/index.md
+  - Customizations:
+    - customizations/index.md
+
+# Extra Optimizations, Customizations, Plugins & Extensions
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/sysmonyx
+      name: sysmonyx on GitHub
+    - icon: fontawesome/brands/gitlab
+      link: https://gitlab.com/sysmonyx
+      name: sysmonyx on GitLab
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:contact@sysmonyx.com
+      name: Email
+
+#extra_css:
+#  - stylesheets/extra.css
