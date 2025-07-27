@@ -1,0 +1,1 @@
+{"config":{"lang":["en"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"]},"docs":[{"location":"","title":"Home","text":"<p>Welcome to the documentation for Linux Scripts by sysmonyx</p>"},{"location":"#objectives","title":"Objectives","text":""},{"location":"customizations/","title":"Customizations","text":""},{"location":"how-to-use/","title":"How to Use","text":""}]}
